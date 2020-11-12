@@ -1,11 +1,12 @@
 import React from 'react';
+import Signin from './pages/Signin';
+import GlobalStyles from './styles/global';
 
-function App() {
-  return (
-    <div className="App">
-      <h1>To Feliz =D</h1>
-    </div>
-  );
-}
+const App: React.FC = () => (
+  <>
+    <Signin />
+    <GlobalStyles />
+  </>
+);
 
 export default App;
