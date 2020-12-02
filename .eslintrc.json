@@ -36,6 +36,7 @@
     "@typescript-eslint/class-name-casing": "off",
     "@typescript-eslint/camelcase": "off",
     "react/prop-types": "off",
+    "import/no-duplicates": "off",
     "react/jsx-filename-extension": [1, {
       "extensions": [".tsx"]
     }],
